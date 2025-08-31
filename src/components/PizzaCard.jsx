@@ -1,10 +1,35 @@
-import Button from "./Button.jsx"
+import Card from "react-bootstrap/Card"
+import ListGroup from "react-bootstrap/ListGroup"
+import MyButton from "./Button.jsx"
+import conversor from "../utils/conversor.js"
 
- const PizzaCard = () => {
+
+ const PizzaCard = ({name, image, price, ingredients}) => {
   return (
     <>
-    <div>PizzaCard</div>
-    <Button/>
+    <div className="col">
+    <Card className="text-center">
+      <Card.Img variant="top" src={image} />
+      <Card.Body>
+        <Card.Title>{name}</Card.Title>
+      </Card.Body>
+      <ListGroup className="list-group-flush">
+        <ListGroup.Item>
+          <Card.Text className="fw-bolder">Ingredientes</Card.Text>
+          <Card.Text>{ingredients}</Card.Text>
+        </ListGroup.Item>
+        <ListGroup.Item>
+          <Card.Text className="fw-bolder">{conversor(price)}</Card.Text>
+          <Card.Body>
+            <div className=" d-flex justify-content-around">
+              <MyButton btnText="Ver Más" btnColor="light" />
+              <MyButton btnText="Añadir" btnColor="dark" />
+            </div>
+          </Card.Body>
+        </ListGroup.Item>
+      </ListGroup>
+    </Card>
+    </div>
     </>
 
   )

@@ -1,10 +1,10 @@
 
 
- const Button = () => {
+ const MyButton = () => {
   return (
     <div>Button</div>
   )
 }
 
 
-export default Button
+export default MyButton
