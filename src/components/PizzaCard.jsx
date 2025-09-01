@@ -8,8 +8,8 @@ import conversor from "../utils/conversor.js"
   return (
     <>
     <div className="col">
-    <Card className="text-center">
-      <Card.Img variant="top" src={image} />
+    <Card className="text-center col">
+      <Card.Img variant="top" src={image} className="rounded p-3" />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
       </Card.Body>

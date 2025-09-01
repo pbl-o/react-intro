@@ -7,7 +7,7 @@ import PizzaCard from "./PizzaCard.jsx"
     <>
     <Header/>
     
-    <div className="container-fluid row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 my-2">
+    <div className="container-fluid row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 p-1">
         <PizzaCard
           name="Napolitana"
           price={5950}

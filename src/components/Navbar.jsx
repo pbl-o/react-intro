@@ -13,13 +13,13 @@ import conversor from '../utils/conversor.js'
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className='w-100'>
-            <div className='d-flex gap-2'>
+            <div className='d-flex flex-column flex-lg-row'>
             <Nav.Link href="#home">🍕Home</Nav.Link>
             <Nav.Link  href="#link">{token ? '🔐Logout' : '🔐Login' }</Nav.Link>
             <Nav.Link href="#link">{token ? '🔐Profile' : '🔐Registro' }</Nav.Link>
             </div>
 
-            <div className='ms-auto bg-success'>
+            <div className='ms-auto'>
             <Nav.Link > 🛒 Total:  {conversor(total)}</Nav.Link>
             </div>
           </Nav>

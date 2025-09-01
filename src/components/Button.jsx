@@ -1,8 +1,9 @@
+import Button from 'react-bootstrap/Button'
 
 
- const MyButton = () => {
+ const MyButton = (props) => {
   return (
-    <div>Button</div>
+  <Button variant={props.btnColor}>{props.btnText}</Button>
   )
 }
 
