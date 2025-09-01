@@ -10,7 +10,7 @@ preferí llamar diferenciar mi componente para evitar posibles confusiones
 
 Preferí mantener el link del Navbar de bootstrap en por sobre los botones para aprovechar el componente, dado que 
 El objetivo del punto 4 es que las opciones Home y Total (sea botón o no) se mantengan tal cual son independiente
-de la variable token
+del token
 
 */
 
@@ -31,7 +31,9 @@ const MyNavbar = () => {
             <div className="d-flex flex-column flex-lg-row">
               <Nav.Link href="#home">🍕Home</Nav.Link>
               <Nav.Link href="#link">{token ? "🔐Logout" : "🔐Login"}</Nav.Link>
-              <Nav.Link href="#link">{token ? "🔐Profile" : "🔐Register"}</Nav.Link>
+              <Nav.Link href="#link">
+                {token ? "🔐Profile" : "🔐Register"}
+              </Nav.Link>
             </div>
 
             <div className="ms-auto">
