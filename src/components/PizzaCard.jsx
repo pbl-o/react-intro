@@ -9,7 +9,7 @@ import conversor from "../utils/conversor.js"
     <>
     <div className="col">
     <Card className="text-center col">
-      <Card.Img variant="top" src={image} className="rounded p-3" />
+      <Card.Img variant="top" src={image} className="" />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
       </Card.Body>

@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+*{
+  font-family: "Kode Mono", monospace;
+}
+
 .header-bg{
   background: url('./assets/Header.jpg');
   height: 25vh;
 }
 
-.img-size{
-  width: 50%;
-}
