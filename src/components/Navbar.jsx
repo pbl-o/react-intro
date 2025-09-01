@@ -9,7 +9,7 @@ import conversor from '../utils/conversor.js'
   const total = 55000
   const token = false
   return (
-       <Navbar expand="lg" className="bg-dark w-100 d-flex justify-content-between px-4 " variant='dark' >
+       <Navbar expand="lg" className="bg-dark w-100 d-flex justify-content-between " variant='dark' >
         <Container fluid> 
         <Navbar.Brand href="#home">Pizzería Ticcino</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
