@@ -4,7 +4,7 @@ import MyNavbar from "./components/Navbar.jsx";
 import Home from "./components/Home.jsx";
 import Footer from "./components/Footer.jsx";
 
-//En Button.jsx usan props convencioanales, en CardPizza.jsx se usan props via destructuring.
+//En Button.jsx se usan props convencioanales, en CardPizza.jsx se usan props via destructuring.
 
 function App() {
   return (
