@@ -9,3 +9,14 @@
   height: 25vh;
 }
 
+.header-bg p, .header-bg h1{
+  z-index: 0
+} 
+
+.overlay{
+  background-color: black;
+  position: absolute;
+  height: 25vh;
+  opacity: .7;
+}
+

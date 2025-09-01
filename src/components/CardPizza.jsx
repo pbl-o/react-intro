@@ -4,7 +4,7 @@ import MyButton from "./Button.jsx"
 import conversor from "../utils/conversor.js"
 
 
- const PizzaCard = ({name, image, price, ingredients}) => {
+ const CardPizza = ({name, image, price, ingredients}) => {
   return (
     <>
     <div className="col">
@@ -36,4 +36,4 @@ import conversor from "../utils/conversor.js"
 }
 
 
-export default PizzaCard
+export default CardPizza
